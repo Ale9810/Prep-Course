@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#especial{
+    background-image: url("162179-tv-news-feature-rick-and-morty-season-6-release-date-trailer-and-how-to-watch-image1-kbmgzwpsy5.jpg");
+    background-size: cover;
+    background-position:center center ;
+	height: 100%;
+}
+#superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#thirdDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid brown;
+    padding: 50px 25px;
+    width: 600px;
+    height: 500px;
+    margin: 20px;
+    background-color: yellow;
+}
+#thirdDiv h1,h3,h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#thirdDiv .uno{
+    margin: 10px;
+    color: grey;
+    font-weight: bold;
+}
+#thirdDiv .dos{
+    margin: 10px;
+}
+#thirdDiv .tres{
+    margin: 20px;
+}
+.divClass{
+    text-align: center;
+}
+#spanId{
+    display: block;
+    margin: 15px auto;
+}
+.divClass a{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: beige;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.divClass a:hover{
+    background-color: red;
+}
+.libreria{
+    text-align: center;
+}
+.letra{
+    margin: 10px;
+}
+.contenedor-imagen img{
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 400px;
+}
